@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import sankalpLogo from '/SankalpAiLogo.png'
 import './App.css'
+import Welcome from './Welcome.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
         Click on the Vite and React logos to learn more
         Prepare by The Sun Technologies
       </p>
+      <Welcome />
     </>
   )
 }
